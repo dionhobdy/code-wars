@@ -9,7 +9,7 @@ function solution(number){
     // declare sum variable. will be used to output the desired sum.
     let sum = 0;
     // loop from 0 to the value of number. if the value of i is a modulous of 3 or 5, add it to the value of the sum variable.
-    for (var i = 0; i < number; i++) { i % 3 == 0 || i % 5 == 0 ? sum += i : sum += 0 }
+    for (var i = 0; i < number; i++) { i % 3 == 0 || i % 5 == 0 ? sum += i : null }
     // return the value of the sum variable.
     return sum;
    }
